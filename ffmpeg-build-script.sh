@@ -1,0 +1,38 @@
+./configure \
+--disable-everything \
+--disable-x86asm \
+--enable-static \
+--pkg-config-flags="--static" \
+--extra-cflags="-I$HOME/ffmpeg_build/include" \
+--extra-ldflags="-static"
+--extra-libs="-lpthread -lm" \
+--disable-x86asm \
+--enable-ffmpeg \
+--enable-ffprobe \
+--enable-protocol=file \
+--enable-demuxer=mov \
+--enable-demuxer=matroska \
+--enable-demuxer=avi \
+--enable-demuxer=flv \
+--enable-demuxer=mpegts \
+--enable-demuxer=mp3 \
+--enable-demuxer=wav \
+--enable-demuxer=aac \
+--enable-demuxer=ogg \
+--enable-demuxer=flac \
+--enable-muxer=mp4 \
+--enable-muxer=matroska \
+--enable-decoder=h264 \
+--enable-decoder=hevc \
+--enable-decoder=vp9 \
+--enable-decoder=aac \
+--enable-decoder=mp3 \
+--enable-decoder=flac \
+--enable-decoder=opus \
+--enable-decoder=vorbis \
+--enable-encoder=aac \
+--enable-parser=h264 \
+--enable-parser=aac \
+--enable-gpl \
+--disable-debug \
+--enable-stripping
