@@ -41,3 +41,11 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+
+# Build files
+
+Reducio.AppDir/data
+Reducio.AppDir/lib
+Reducio.AppDir/.DirIcon
+Reducio.AppDir/reducio
