@@ -1,16 +1,25 @@
-# reducio
+# 🪄 Reducio
 
-A new Flutter project.
+Often times, I need to compress videos either to meet file size limits or just to speed up uploads. Sometimes I upload them to some online compressing tool. Othertimes, I rely on ffmpeg if my video is too big (or) if the video is not supposed to be shared anywhere.
 
-## Getting Started
+And every single time, I end up googling the same command from StackOverflow.
 
-This project is a starting point for a Flutter application.
+So, I built Reduccio, a tiny app that does just two things:
 
-A few resources to get you started if this is your first Flutter project:
+1. 📦 Compress Audio/Video files.
+2. 🔇 Removes Audio track from video files.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+That’s it.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+No command line.
+No upload limits.
+No nonsense.
+Just drag, drop, done; all offline.
+
+## Screenshots
+
+![Compression Screen](compress-screen.png)
+
+![Remove Audio Screen](remove-audio-screen.png)
+
+---
