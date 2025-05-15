@@ -32,9 +32,9 @@ flutter:
 
   assets:
     - assets/fonts/
-    # - assets/ffmpeg/linux/ffmpeg.zip
+    - assets/ffmpeg/linux/ffmpeg.zip
     # - assets/ffmpeg/macos/ffmpeg.zip
-    - assets/ffmpeg/windows/ffmpeg.zip
+    # - assets/ffmpeg/windows/ffmpeg.zip
     - assets/icons/compress.png
     - assets/icons/mute.png
   
